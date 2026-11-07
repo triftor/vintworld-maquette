@@ -3,6 +3,13 @@
 Maquette cliquable de la marketplace VintWorld (boutique, espaces artisan, partenaire et admin ; FR/EN/TH ; EUR/USD/THB).
 Données fictives, aucune sauvegarde : tout repart à zéro au rechargement.
 
+## Voir la maquette
+
+- En ligne : https://triftor.github.io/vintworld-maquette/
+- En un seul fichier : [docs/index.html](docs/index.html), à ouvrir par double-clic.
+
+Après une modification de `index.html`, lancer `./build.sh` pour regénérer `docs/index.html`.
+
 ## Lancer avec Docker
 
 ```bash
