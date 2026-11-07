@@ -1,0 +1,8 @@
+services:
+  maquette:
+    build: .
+    container_name: vintworld-maquette
+    # Accessible uniquement depuis le serveur lui-même : on y accède par tunnel SSH
+    ports:
+      - "127.0.0.1:8080:80"
+    restart: unless-stopped
